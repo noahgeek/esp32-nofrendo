@@ -33,6 +33,7 @@
 
 - **Arduino_GFX** — TFT 屏幕驱动
 - **NimBLE-Arduino** (作者: h2zero) — 蓝牙低功耗协议栈，比默认 Bluedroid 节省约 100KB RAM
+- 特别注意!!!ESP32-C3连接TFT一定要用ESP32开发板库2.0.9版本才能点亮屏幕
 
 > ⚠️ **重要**：本项目自带完整 nofrendo 模拟器源码于 `src/` 目录。
 > **请勿** 通过 Arduino IDE 库管理器安装 `nofrendo` 库，否则会与项目内 `src/` 重复定义导致编译失败。
